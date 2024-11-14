@@ -22,9 +22,9 @@
 
 - 附件名字（中间以   `     `   进行分离）
 
-  
 
-![image-20241114191018350](C:\Users\Slexy\AppData\Roaming\Typora\typora-user-images\image-20241114191018350.png)
+<img alt="image-20241114191018350" src="D:\Code\Pycharm_code\爬虫学习\picture\image-20241114191018350.png"/>
+
 
 
 
