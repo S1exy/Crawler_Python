@@ -33,7 +33,7 @@
 - 附件名字（中间以   `     `   进行分离）
 
 
-![image-20241114191018350](.\picture\image-20241114191018350.png)
+![](https://github.com/S1exy/Crawler_Python/raw/master/picture/image-20241114191018350.png)
 
 
 
