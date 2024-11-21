@@ -9,9 +9,6 @@ import attachment
 
 
 
-
-
-
 # 福州大学教务处 页面获取处理
 def get_html(url):
     """
@@ -57,10 +54,14 @@ def get_info(html_list):
         list1 = html_etree.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[3]/div[1]/ul/li")
 
         for fzu in list1:
-            time.sleep(random.uniform(0.6, 1.7))
+            time.sleep(random.uniform(0.1, 0.25))
             # 教务系统的通知人
             fzu_human = fzu.xpath("./text()")[1]
             fzu_human = fzu_human.encode('iso-8859-1').decode('utf-8')
+            fzu_human = fzu_human.replace("】","")
+            fzu_human = fzu_human.replace("【","")
+            fzu_human = fzu_human.strip()
+
             # 教务系统的通知时间
             fzu_time = fzu.xpath("./span/font/text()")
             if len(fzu_time) == 0:
